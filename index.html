@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<div class="grid-container">
+  <div class="grid-result-container">
+    <div class="your-result">
+      <p>Your result</p>
+      <div class="circle">
+        <div class="main-score">
+          76
+        </div>
+        <div class="out-of">
+          of 100
+        </div>
+      </div>
+    </div>
+    <div class="text-msg">
+      <div class="result-mark">Great</div>
+      <div class="text">
+        You scored higher than 65% of the people who have taken these tests.
+      </div>
+    </div>
+  </div>
+  <div class="grid-summary-container">
+    <p class="summary">Summary</p>
+    <div class="test">
+      <div class="iconic-flex reaction-bg">
+        <div class="pair">
+          <img src="./assets/images/icon-reaction.svg" alt="" class="reaction-img">
+          <span class="reaction-txt">Reaction</span>
+        </div>
+        <div class="score">
+          <span class="bold-score">80</span><span class="lawenda"><span class="spacing">/</span>100</span>
+        </div>
+      </div>
+      <div class="memory">
+        <div class="iconic-flex memory-bg">
+          <div class="pair">
+            <img src="./assets/images/icon-memory.svg" alt="" class="memory-img">
+            <span class="memory-txt">Memory</span>
+          </div>
+          <div class="score">
+            <span class="bold-score">1</span><span class="lawenda">/100</span>
+          </div>
+        </div>
+      </div>
+      <div class="verbal">
+        <div class="iconic-flex verbal-bg">
+          <div class="pair">
+            <img src="./assets/images/icon-verbal.svg" alt="" class="verbal">
+            <span class="verbal-txt">Verbal</span>
+          </div>
+          <div class="score">
+            <span class="bold-score">8</span><span class="lawenda"><span class="spacing">/</span>100</span>
+          </div>
+        </div>
+      </div>
+      <div class="visual">
+        <div class="iconic-flex visual-bg">
+          <div class="pair">
+            <img src="./assets/images/icon-visual.svg" alt="" class="visual-img">
+            <span class="visual-txt">Visual</span>
+          </div>
+          <div class="score">
+            <span class="bold-score">9</span><span class="lawenda"><span class="spacing">/</span>100</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="continue">
+      <button class="btn-continue">
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
